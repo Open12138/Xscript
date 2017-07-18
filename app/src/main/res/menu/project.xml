@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/compile"
+        android:icon="@mipmap/ic_l_play_dark"
+        android:orderInCategory="100"
+        android:title="编译"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/uidesigner"
+        android:orderInCategory="100"
+        android:title="UI设计器"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/close"
+        android:orderInCategory="100"
+        android:title="关闭当前文件"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/closeproject"
+        android:orderInCategory="100"
+        android:title="关闭当前工程"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/deleteproject"
+        android:orderInCategory="100"
+        android:title="删除当前工程"
+        app:showAsAction="never" />
+
+</menu>

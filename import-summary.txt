@@ -1,0 +1,86 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+ * Project ZipSigner:E:\Android\Source\zip-signer\ZipSigner\trunk\.classpath:
+   Could not resolve source path src/test/java in project ZipSigner: ignored.
+   The project may not compile if the given source path provided source code.
+
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* README.txt
+* box-icon.xcf
+* default.properties
+* google-store\
+* google-store\.svn\
+* google-store\.svn\all-wcprops
+* google-store\.svn\entries
+* google-store\chinese-simplified-zh-CN\
+* google-store\chinese-simplified-zh-CN\.svn\
+* google-store\chinese-simplified-zh-CN\.svn\all-wcprops
+* google-store\chinese-simplified-zh-CN\.svn\entries
+* google-store\chinese-simplified-zh-CN\.svn\text-base\
+* google-store\chinese-simplified-zh-CN\.svn\text-base\listing.xml.svn-base
+* google-store\chinese-simplified-zh-CN\listing.xml
+* google-store\chinese-traditional-zh-TW\
+* google-store\chinese-traditional-zh-TW\.svn\
+* google-store\chinese-traditional-zh-TW\.svn\all-wcprops
+* google-store\chinese-traditional-zh-TW\.svn\entries
+* google-store\chinese-traditional-zh-TW\.svn\text-base\
+* google-store\chinese-traditional-zh-TW\.svn\text-base\listing.xml.svn-base
+* google-store\chinese-traditional-zh-TW\listing.xml
+* google-store\english-en-US\
+* google-store\english-en-US\.svn\
+* google-store\english-en-US\.svn\all-wcprops
+* google-store\english-en-US\.svn\entries
+* google-store\english-en-US\.svn\prop-base\
+* google-store\english-en-US\.svn\prop-base\screenshot-1.png.svn-base
+* google-store\english-en-US\.svn\prop-base\screenshot-2.png.svn-base
+* google-store\english-en-US\.svn\text-base\
+* google-store\english-en-US\.svn\text-base\listing.xml.svn-base
+* google-store\english-en-US\.svn\text-base\recent-changes.xml.svn-base
+* google-store\english-en-US\.svn\text-base\screenshot-1.png.svn-base
+* google-store\english-en-US\.svn\text-base\screenshot-2.png.svn-base
+* google-store\english-en-US\listing.xml
+* google-store\english-en-US\recent-changes.xml
+* google-store\english-en-US\screenshot-1.png
+* google-store\english-en-US\screenshot-2.png
+* google-store\russian-ru-RU\
+* google-store\russian-ru-RU\.svn\
+* google-store\russian-ru-RU\.svn\all-wcprops
+* google-store\russian-ru-RU\.svn\entries
+* google-store\russian-ru-RU\.svn\text-base\
+* google-store\russian-ru-RU\.svn\text-base\listing.xml.svn-base
+* google-store\russian-ru-RU\listing.xml
+* hires-icon.png
+* pom.xml
+* signapk.sh
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => zipSigner\src\main\AndroidManifest.xml
+* assets\ => zipSigner\src\main\assets
+* res\ => zipSigner\src\main\res\
+* src\ => zipSigner\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">XEditor</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="select_file">选择文件</string>
+    <string name="new_file">新建</string>
+    <string name="open_file">打开</string>
+    <string name="save_file">保存</string>
+    <string name="goto_line">goto</string>
+
+    <string name="error">噢噢，程序出了点小错误，是否发送错误至服务器，以便我们对bug的修复！</string>
+
+</resources>

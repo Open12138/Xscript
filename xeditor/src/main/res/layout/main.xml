@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+	
+	<com.editor.text.ScrollViewText
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<com.editor.text.HorScrollViewText
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:scrollbars="none">
+			<com.editor.text.CodeEditor
+				android:id="@+id/codeEditor"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+				<include
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					layout="@layout/file_label"/>
+				<View
+					android:layout_width="fill_parent"
+					android:layout_height="2dp"
+					android:background="#29b6f6"/>
+				<com.editor.text.TextEditorView
+					android:id="@+id/textEditor"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:textSize="15sp"
+					android:background="@null"/>
+			</com.editor.text.CodeEditor>
+			
+		</com.editor.text.HorScrollViewText>
+	</com.editor.text.ScrollViewText>
+	
+	<HorizontalScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="25dp"
+		android:gravity="center_vertical"
+		android:fillViewport="false"
+		android:layout_alignParentBottom="true">
+		
+	</HorizontalScrollView>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Xscript</string>
+    <string name="title_activity_project_list">ProjectListActivity</string>
+    <string name="title_activity_project">ProjectActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="createSuccess">创建成功</string>
+    <string name="createFailed">创建失败</string>
+    <string name="createException">创建异常</string>
+    <string name="App_About">Xscript让你很简单的创造出自己的App!\n\n我们的优势\n1.采用扩展库的方式做到可以支持安卓所有API!\n2.支持中英文两种模式编程\n3.编译生成java字节码,运行效率无损\n4.支持第三方加固，代码更安全。\n\n本项目由:GreyWolf_qq:3100816665在2016.5.13日创建\n2016.5.20日发布1.0预览版，后续拖动控件布局，中文编程，语法教程将会不断完善!欢迎提出各种意见。</string>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>

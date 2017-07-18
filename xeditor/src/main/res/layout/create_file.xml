@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="23dp"
+		android:layout_marginTop="10dp"
+		android:textSize="18dp"
+		android:text="Dir:"/>
+    <EditText
+		android:id="@+id/dirEditText"
+		android:layout_marginTop="10dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="如：hello或hello/test"/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="23dp"
+		android:layout_marginTop="10dp"
+		android:textSize="18dp"
+		android:text="Name:"/>
+    <EditText
+		android:id="@+id/fileEditText"
+		android:layout_marginTop="10dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="如：main.c"/>
+</LinearLayout>

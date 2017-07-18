@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="editor_backgroud">#ffffffff</color>
+    <color name="current_row_backgroud">#ffccddff</color>
+    <color name="hightlight_color">#ffb3df87</color>
+    <color name="syntax_number">#ff000080</color>
+    <color name="syntax_keyword">#ff83085a</color>
+    <color name="syntax_comment">#ff009b00</color>
+    <color name="syntax_error">#ffdd4b39</color>
+    <color name="syntax_headfile">#ffcc7600</color>
+    <color name="syntax_string">#ff2e02ff</color>
+    <color name="syntax_pretreatment">#ffcc7600</color>
+    <color name="syntax_builtin">#ff000080</color>
+</resources>

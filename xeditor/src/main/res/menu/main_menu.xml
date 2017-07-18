@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item
+        android:id="@+id/search_view"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+		android:actionViewClass="android.widget.SearchView"
+        android:title="Search…"/>
+	
+    <item
+        android:id="@+id/new_file"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/new_file"/>
+	<item
+        android:id="@+id/open_file"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/open_file"/>
+	<item
+        android:id="@+id/save_file"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/save_file"/>
+	<item
+        android:id="@+id/goto_line"
+        android:orderInCategory="500"
+        android:showAsAction="never"
+        android:title="@string/goto_line"/>
+    
+</menu>
